@@ -276,7 +276,6 @@ fix_uid
 
 printf "\n${blue}[*] Updating NetHunter and installing packages...${reset}\n"
 nethunter -r apt update
-nethunter -r apt full-upgrade -y
 nethunter -r apt autoremove -y
 
 print_banner
